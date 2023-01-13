@@ -7,7 +7,7 @@ const Clients = () => {
       <div className="flex justify-end">
         <img src={quote} alt="" />
       </div>
-      <h4 className="text-primary mt-[40px] mb-[16px]">
+      <h4 className="text-darkPrimary mt-[40px] mb-[16px]">
         What our clients say
       </h4>
       <h2 className='sm:text-[40px] text-[32px]'>

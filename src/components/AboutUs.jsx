@@ -7,15 +7,15 @@ const AboutUs = () => {
       <div className='flex sm:flex-row flex-col-reverse justify-between items-center gap-[80px]'>
         <img src={aboutUsImage} alt="" />
         <div>
-          <h4 className="text-primary">About Us</h4>
+          <h4 className="text-darkPrimary">About Us</h4>
           <h2 className="font-space mt-[8px] mb-[24px] sm:text-[40px] text-[32px]">
             Helping businesses access talents globally
           </h2>
-          <div className="flex sm:flex-row flex-col gap-4 items-center">
-            <div className="btn3">Fintech</div>
-            <div className="btn3">Healthtech</div>
-            <div className="btn3">Edutech</div>
-            <div className="btn3">Web 3.0</div>
+          <div className="flex gap-4 items-center">
+            <div className="btn3 sm:text-[16px] text-[10px]">Fintech</div>
+            <div className="btn3 sm:text-[16px] text-[10px]">Healthtech</div>
+            <div className="btn3 sm:text-[16px] text-[10px]">Edutech</div>
+            <div className="btn3 sm:text-[16px] text-[10px]">Web 3.0</div>
           </div>
           <p className="font-normal text-dimmerBlack mt-[24px] mb-[40px]">
             Welcome to our technology recruitment website! We help companies find top technology talent by connecting them with professionals in our database. Our recruiters use advanced algorithms to match candidates to job openings, and our user-friendly interface allows for easy searching and applying. Browse our database today and start building your dream team.

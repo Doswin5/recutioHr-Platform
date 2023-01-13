@@ -14,7 +14,7 @@ const WhoWeAre = () => {
         </p>
         <button className="btn1">Get Started</button>
       </div>
-      <img src={whoWeAreImage} alt="" className='w-[50%]' />
+      <img src={whoWeAreImage} alt="" className='sm:w-[50%] w-[100%]' />
     </div>
   )
 }

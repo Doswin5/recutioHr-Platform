@@ -110,7 +110,7 @@ const Jobs = () => {
           </div>
         </div>
       </div>
-      <p className='underline text-primary mt-[40px] font-medium'>See More</p>
+      <p className='underline text-darkPrimary mt-[40px] font-medium'>See More</p>
     </div>
   )
 }
