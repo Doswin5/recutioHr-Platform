@@ -16,7 +16,7 @@ const Jobs = () => {
         <div className="flex items-center justify-between w-[50%]">
           <div className="flex items-center gap-[8px]">
             <img src={location} alt="" />
-            <span className="font-dmSans text-[12px]">Location</span>
+            <span className="font-dmSans text-[12px] sm:block hidden">Location</span>
           </div>
           <div className="flex items-center gap-[16px]">
             <img src={dropdown} alt="" />
@@ -33,7 +33,7 @@ const Jobs = () => {
               <img src={fulltime} alt="" />
             </div>
           </div>
-          <div className="flex justify-between items-end text-dimmestBlack mt-[24px]">
+          <div className="flex sm:flex-row flex-col justify-between sm:items-end text-dimmestBlack mt-[24px] sm:gap-0 gap-8">
             <div>
               <h3 className="text-dimBlack font-dmSans">
                 Junior UI/UX Designer
@@ -54,7 +54,7 @@ const Jobs = () => {
               <img src={fulltime} alt="" />
             </div>
           </div>
-          <div className="flex justify-between items-end text-dimmestBlack mt-[24px]">
+          <div className="flex sm:flex-row flex-col justify-between sm:items-end text-dimmestBlack mt-[24px] sm:gap-0 gap-8">
             <div>
               <h3 className="text-dimBlack font-dmSans">
                 Backend Developer
@@ -75,7 +75,7 @@ const Jobs = () => {
               <img src={fulltime} alt="" />
             </div>
           </div>
-          <div className="flex justify-between items-end text-dimmestBlack mt-[24px]">
+          <div className="flex sm:flex-row flex-col justify-between sm:items-end text-dimmestBlack mt-[24px] sm:gap-0 gap-8">
             <div>
               <h3 className="text-dimBlack font-dmSans">
                 Frontend Developer
@@ -96,7 +96,7 @@ const Jobs = () => {
               <img src={fulltime} alt="" />
             </div>
           </div>
-          <div className="flex justify-between items-end text-dimmestBlack mt-[24px]">
+          <div className="flex sm:flex-row flex-col justify-between sm:items-end text-dimmestBlack mt-[24px] sm:gap-0 gap-8">
             <div>
               <h3 className="text-dimBlack font-dmSans">
                 Product Designer

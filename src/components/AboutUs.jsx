@@ -11,7 +11,7 @@ const AboutUs = () => {
           <h2 className="font-space mt-[8px] mb-[24px] sm:text-[40px] text-[32px]">
             Helping businesses access talents globally
           </h2>
-          <div className="flex gap-4 items-center">
+          <div className="flex sm:flex-row flex-col gap-4 items-center">
             <div className="btn3">Fintech</div>
             <div className="btn3">Healthtech</div>
             <div className="btn3">Edutech</div>
