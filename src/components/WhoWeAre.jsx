@@ -6,7 +6,7 @@ const WhoWeAre = () => {
     <div className='bg-dimBlack px-[16px] sm:px-[100px] py-[150px] text-dimWhite flex sm:flex-row flex-col items-center gap-[80px]'>
       <div>
         <h4 className="text-primary">Who we are</h4>
-        <h2 className='text-white mb-[16px]'>
+        <h2 className='text-white mb-[16px] sm:text-[40px] text-[32px]'>
           We treat your needs as ours.
         </h2>
         <p className='mb-[40px]'>

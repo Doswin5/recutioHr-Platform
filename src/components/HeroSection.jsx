@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className='bg-secondary px-[16px] sm:px-[100px] flex  sm:flex-row flex-col-reverse items-center justify-between text-white font-space gap-[100px] sm:pt-[24px] pt-[40px] pb-[40px]'>
       <div>
         <p className='font-space font-bold'>WELCOME TO RECUTIO _</p>
-        <h1 className='w-[88%] mb-[8px]'>
+        <h1 className='w-full sm:w-[88%] mb-[8px] sm:text-[64px] text-[40px]'>
           Unlock Your Next Tech Talent with Us
         </h1>
         <h4 className="font-dmSans mb-[24px] w-[95%] font-normal">

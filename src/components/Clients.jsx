@@ -10,10 +10,10 @@ const Clients = () => {
       <h4 className="text-primary mt-[40px] mb-[16px]">
         What our clients say
       </h4>
-      <h2>
+      <h2 className='sm:text-[40px] text-[32px]'>
         "Great Customer service and they stay with you till the end of the process, I love them"
       </h2>
-      <div className="flex justify-between items-center py-[24px] mt-[40px] dimBorder">
+      <div className="flex sm:flex-row flex-col gap-12 justify-between items-center py-[40px] sm:py-[24px] mt-[40px] dimBorder">
         <div className="flex items-center gap-[16px]">
           <img src={dp} alt="" />
           <div className="flex flex-col">

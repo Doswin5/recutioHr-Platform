@@ -26,6 +26,8 @@ import fulltime from './fulltime.png'
 import twitterLogo from './twitterLogo.png'
 import spotifyLogo from './spotifyLogo.png'
 import stripeLogo from './stripeLogo.png'
+import menu from './menu.svg'
+import close from './close.svg'
 
 
 export {
@@ -57,6 +59,8 @@ export {
   twitterLogo,
   spotifyLogo,
   stripeLogo,
+  menu,
+  close,
 
 
 }

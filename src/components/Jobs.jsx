@@ -4,12 +4,12 @@ import { searchIcon, design, dropdown, location, filter, remote, fulltime, twitt
 const Jobs = () => {
   return (
     <div className='bg-[#f9f9f9] px-[16px] sm:px-[100px] py-[80px]'>
-      <h2>Job Board</h2>
-      <div className="flex items-center rounded-[16px] p-[8px] sm:p-[24px] my-[40px] bg-white gap-[16px]">
+      <h2 className='sm:text-[40px] text-[32px]'>Job Board</h2>
+      <div className="flex  items-center rounded-[16px] p-[8px] sm:p-[24px] my-[40px] bg-white gap-[16px]">
         <div className="flex items-center justify-between w-[50%] darkBorder pr-[16px]">
           <div className="flex items-center gap-[8px]">
             <img src={searchIcon} alt="" />
-            <img src={design} alt="" />
+            <img src={design} alt="" className='sm:block hidden' />
           </div>
           <img src={dropdown} alt="" />
         </div>
@@ -20,12 +20,12 @@ const Jobs = () => {
           </div>
           <div className="flex items-center gap-[16px]">
             <img src={dropdown} alt="" />
-            <img src={filter} alt="" />
+            <img src={filter} alt="" className='sm:flex hidden' />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-[24px] gap-x-[40px]">
-        <div className="bg-white p-[40px]">
+        <div className="bg-white sm:p-[40px] p-[16px]">
           <div className="flex justify-between">
             <img src={twitterLogo} alt="" />
             <div className="flex items-center gap-[8px]">
@@ -46,7 +46,7 @@ const Jobs = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white p-[40px]">
+        <div className="bg-white sm:p-[40px] p-[16px]">
           <div className="flex justify-between">
             <img src={twitterLogo} alt="" />
             <div className="flex items-center gap-[8px]">
@@ -67,7 +67,7 @@ const Jobs = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white p-[40px]">
+        <div className="bg-white sm:p-[40px] p-[16px]">
           <div className="flex justify-between">
             <img src={spotifyLogo} alt="" />
             <div className="flex items-center gap-[8px]">
@@ -88,7 +88,7 @@ const Jobs = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white p-[40px]">
+        <div className="bg-white sm:p-[40px] p-[16px]">
           <div className="flex justify-between">
             <img src={stripeLogo} alt="" />
             <div className="flex items-center gap-[8px]">

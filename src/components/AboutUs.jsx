@@ -8,7 +8,7 @@ const AboutUs = () => {
         <img src={aboutUsImage} alt="" />
         <div>
           <h4 className="text-primary">About Us</h4>
-          <h2 className="font-space mt-[8px] mb-[24px]">
+          <h2 className="font-space mt-[8px] mb-[24px] sm:text-[40px] text-[32px]">
             Helping businesses access talents globally
           </h2>
           <div className="flex gap-4 items-center">
