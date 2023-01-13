@@ -12,10 +12,10 @@ const AboutUs = () => {
             Helping businesses access talents globally
           </h2>
           <div className="flex gap-4 items-center">
-            <div className="btn3 sm:text-[16px] text-[10px]">Fintech</div>
-            <div className="btn3 sm:text-[16px] text-[10px]">Healthtech</div>
-            <div className="btn3 sm:text-[16px] text-[10px]">Edutech</div>
-            <div className="btn3 sm:text-[16px] text-[10px]">Web 3.0</div>
+            <div className="btn3 sm:text-[16px] text-[8px]">Fintech</div>
+            <div className="btn3 sm:text-[16px] text-[8px]">Healthtech</div>
+            <div className="btn3 sm:text-[16px] text-[8px]">Edutech</div>
+            <div className="btn3 sm:text-[16px] text-[8px]">Web 3.0</div>
           </div>
           <p className="font-normal text-dimmerBlack mt-[24px] mb-[40px]">
             Welcome to our technology recruitment website! We help companies find top technology talent by connecting them with professionals in our database. Our recruiters use advanced algorithms to match candidates to job openings, and our user-friendly interface allows for easy searching and applying. Browse our database today and start building your dream team.
