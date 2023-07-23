@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div
       // style={{backgroundImage: `url(${heroBg})`, backgroundSize: 'cover'}}
-      className='bg-white pt-[80px] font-dmSans'
+      className='bg-white font-dmSans'
     >
       <HeroSection />
       <Companies />

@@ -3,7 +3,7 @@ import { quote, dp, leftArrow, rightArrow } from '../assets'
 
 const Clients = () => {
   return (
-    <div className='px-[16px] sm:px-[80px] py-[150px] bg-white text-dimBlack'>
+    <div className='px-[16px] sm:px-[80px] sm:py-[150px] py-[80px] bg-white text-dimBlack'>
       <div className="flex justify-end">
         <img src={quote} alt="" />
       </div>

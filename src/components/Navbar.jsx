@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <div className='flex bg-secondary justify-between items-center fixed left-0 right-0 sm:px-[100px] px-[16px] py-[24px] text-white font-dmSans font-medium'>
+    <div className='flex bg-secondary justify-between items-center fixed top-0 left-0 right-0 sm:px-[100px] px-[16px] py-[16px] text-white font-dmSans font-medium'>
       <Link to='/'>
         <img src={recutioLogo} alt="recutio logo" className='w-[100px]' />
       </Link>

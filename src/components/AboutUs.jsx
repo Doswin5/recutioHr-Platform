@@ -3,12 +3,12 @@ import { about1, about2, about3, aboutUsImage } from '../assets'
 
 const AboutUs = () => {
   return (
-    <div className='sm:px-[100px] px-[16px] font-dmSans text-dimBlack bg-white py-[150px]'>
+    <div className='sm:px-[100px] px-[16px] font-dmSans text-dimBlack bg-white sm:py-[150px] py-[80px]'>
       <div className='flex sm:flex-row flex-col-reverse justify-between items-center gap-[80px]'>
         <img src={aboutUsImage} alt="" />
         <div>
           <h4 className="text-darkPrimary">About Us</h4>
-          <h2 className="font-space mt-[8px] mb-[24px] sm:text-[40px] text-[32px]">
+          <h2 className="font-space mt-[8px] mb-[24px] sm:text-[40px] text-[32px] leading-snug">
             Helping businesses access talents globally
           </h2>
           <div className="flex gap-4 items-center">
@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className="btn3 sm:text-[16px] text-[8px]">Edutech</div>
             <div className="btn3 sm:text-[16px] text-[8px]">Web 3.0</div>
           </div>
-          <p className="font-normal text-dimmerBlack mt-[24px] mb-[40px]">
+          <p className="font-normal text-dimmerBlack mt-[24px] sm:mb-[40px] mb-6">
             Welcome to our technology recruitment website! We help companies find top technology talent by connecting them with professionals in our database. Our recruiters use advanced algorithms to match candidates to job openings, and our user-friendly interface allows for easy searching and applying. Browse our database today and start building your dream team.
           </p>
           <div>
@@ -25,7 +25,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col justify-center items-center gap-[80px] mt-[150px]">
+      <div className="flex sm:flex-row flex-col justify-center items-center gap-[80px] sm:mt-[150px] mt-[80px]">
         <div className="flex flex-col font-dmSans text-dimBlack">
           <img src={about1} alt="" className='w-[60px] h-[60px] sm:self-start self-center ' />
           <h3 className='font-space text-dimmerBlack mb-[16px] mt-[24px] sm:text-start text-center'>
